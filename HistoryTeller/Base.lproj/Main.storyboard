@@ -1,25 +1,800 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="PixelOperatorMono-Bold.ttf">
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+            <string>PixelOperatorMono-Bold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller Chicos-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewControllerChicos" customModule="HistoryTeller" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOw-0k-YxZ" userLabel="Pagina1">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conoce a Aldo." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVI-Ho-sLj">
+                                        <rect key="frame" x="69" y="83" width="431" height="128"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sí, él es Aldo." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPe-2L-qD8">
+                                        <rect key="frame" x="563" y="305" width="328" height="195"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Di hola Aldo!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bu-Zp-zfI">
+                                        <rect key="frame" x="78" y="638" width="403" height="81"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uPh-6b-JlX">
+                                        <rect key="frame" x="78" y="179" width="465" height="474"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="0hV-1X-UgH" appends="YES" id="rfb-cc-ZpF"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="P9s-8j-Dho">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.47683877431245292" green="0.84501201920000002" blue="0.84402313672092266" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Xub-ql-cjW" appends="YES" id="y6N-ul-1iV"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fkt-xB-h3n" userLabel="Pagina2">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="18O-6Q-YcV">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Hazle saber que quieres jugar con él!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fl-Nf-OS9">
+                                        <rect key="frame" x="112" y="598" width="754" height="136"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_2" translatesAutoresizingMaskIntoConstraints="NO" id="F1d-6X-wUI">
+                                        <rect key="frame" x="64" y="40" width="419" height="566"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_2_OSO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyb-Lz-WfF">
+                                        <rect key="frame" x="534" y="268" width="422" height="345"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="nlL-aj-Mda" appends="YES" id="L7G-v3-KSR"/>
+                                        </connections>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aldo es un bebé muy travieso, pero muy tímido. " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJQ-TY-awW">
+                                        <rect key="frame" x="368" y="23" width="598" height="237"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.58158526792154042" green="0.84501201920000002" blue="0.5485012501822446" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Fj5-Hg-cyt" appends="YES" id="Zpu-rv-HZh"/>
+                                    <outletCollection property="gestureRecognizers" destination="DuZ-K7-oxV" appends="YES" id="NM0-Cl-2Yp"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D82-K3-pT2" userLabel="Pagina3">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="SiG-fr-8xQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G82-ix-QGP">
+                                        <rect key="frame" x="31" y="47" width="758" height="230"/>
+                                        <string key="text">Ahora que tú y Aldo son amigos, 
+Aldo quiere mostrarte un secreto.</string>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aldo tiene un piano mágico." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcS-De-lN3">
+                                        <rect key="frame" x="492" y="574" width="482" height="155"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SHh-tc-vax">
+                                        <rect key="frame" x="289" y="254" width="692" height="319"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3l-Mi-AWp" userLabel="Do">
+                                                <rect key="frame" x="1" y="0.0" width="98" height="319"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="404-AW-zVQ" appends="YES" id="euO-jX-M7W"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Mc-vo-yOD" userLabel="Re">
+                                                <rect key="frame" x="100" y="0.0" width="98" height="319"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="U60-mQ-cKb" appends="YES" id="jK7-iP-wYl"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OB9-Y2-eZ2" userLabel="Mi">
+                                                <rect key="frame" x="199" y="0.0" width="98" height="319"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="iYT-Zo-0fs" appends="YES" id="FO9-2Q-fZu"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Zv-bx-aLG" userLabel="Fa">
+                                                <rect key="frame" x="298" y="0.0" width="98" height="319"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Jth-Nr-M3g" appends="YES" id="YMz-68-B3Q"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3c4-96-gp1" userLabel="Sol">
+                                                <rect key="frame" x="397" y="0.0" width="98" height="319"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="uFK-LC-NUA" appends="YES" id="xFg-OW-kpD"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dyo-7G-I8I" userLabel="La">
+                                                <rect key="frame" x="496" y="0.0" width="98" height="319"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="FPP-PI-a9U" appends="YES" id="sZR-nD-S8e"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wd6-Mi-ykh" userLabel="Si">
+                                                <rect key="frame" x="595" y="0.0" width="98" height="319"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="M3o-1b-Oa6" appends="YES" id="VKM-dL-9me"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ys4-68-41z" userLabel="DoSt">
+                                                <rect key="frame" x="62" y="0.0" width="72" height="181"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2U2-pj-yGe" userLabel="ReSt">
+                                                <rect key="frame" x="162" y="0.0" width="72" height="181"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Lf-6H-uhi" userLabel="FaSt">
+                                                <rect key="frame" x="361" y="0.0" width="72" height="181"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jHp-BF-Bgr" userLabel="SolSt">
+                                                <rect key="frame" x="459" y="0.0" width="72" height="181"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EUo-Hc-4sL" userLabel="LaSt">
+                                                <rect key="frame" x="558" y="1" width="72" height="181"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.81140781422240504" green="0.84501201920000002" blue="0.62533405468798142" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Iai-P5-v1v" appends="YES" id="eTB-Bg-HrB"/>
+                                    <outletCollection property="gestureRecognizers" destination="BOB-bW-rpN" appends="YES" id="Wa7-Gy-Fz0"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFm-ni-e9n" userLabel="Pagina4">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_4_playa" translatesAutoresizingMaskIntoConstraints="NO" id="X0E-bs-Lsu">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="6k6-CV-jvv" appends="YES" id="Qbh-AC-JSJ"/>
+                                        </connections>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Al tocarlo, puedes viajar a donde quieras!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0i-Tx-JX9">
+                                        <rect key="frame" x="8" y="561" width="551" height="184"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_4_pez" translatesAutoresizingMaskIntoConstraints="NO" id="Tz4-v6-64a">
+                                        <rect key="frame" x="443" y="525" width="90" height="44"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_4_pez" translatesAutoresizingMaskIntoConstraints="NO" id="Kg0-hZ-0rw">
+                                        <rect key="frame" x="767" y="619" width="148" height="98"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.3803921569" green="0.69411764710000001" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="n10-Po-cc9" appends="YES" id="E8C-wl-XN1"/>
+                                    <outletCollection property="gestureRecognizers" destination="jCc-FD-A7f" appends="YES" id="Sz8-V6-Jmk"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Xu-GZ-eDk" userLabel="Pagina5">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_5_bosque" translatesAutoresizingMaskIntoConstraints="NO" id="g6u-Qu-6Sa">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="QlI-mE-uh1" appends="YES" id="jBC-6l-BTb"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_5_monkey_2" translatesAutoresizingMaskIntoConstraints="NO" id="egm-hd-Zf1">
+                                        <rect key="frame" x="265" y="506" width="189" height="181"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_5_aldo" translatesAutoresizingMaskIntoConstraints="NO" id="xwE-aQ-Ikt">
+                                        <rect key="frame" x="342" y="452" width="315" height="275"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_5_monkey_1" translatesAutoresizingMaskIntoConstraints="NO" id="r62-nS-VrG">
+                                        <rect key="frame" x="616" y="464" width="157" height="142"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="VQM-qJ-QdK" appends="YES" id="13r-WJ-zuI"/>
+                                    <outletCollection property="gestureRecognizers" destination="1zV-Lw-MFC" appends="YES" id="c9T-3X-SWq"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s3C-ch-Uud" userLabel="Pagina6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="1Yi-Tx-b2u">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sF5-W7-7sN">
+                                        <rect key="frame" x="35" y="67" width="698" height="120"/>
+                                        <string key="text">Tu canción fue maravillosa. 
+</string>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ayuda a Aldo a recordar la voz de su mamá. " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYW-vh-4By">
+                                        <rect key="frame" x="129" y="160" width="797" height="120"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kH4-Zi-OCj">
+                                        <rect key="frame" x="108" y="533" width="782" height="188"/>
+                                        <string key="text">Se parece a aquella canción que la mamá
+de Aldo solía cantar.</string>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_6_inverted" translatesAutoresizingMaskIntoConstraints="NO" id="wZd-Sc-eFZ">
+                                        <rect key="frame" x="359" y="257" width="374" height="279"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_cafe" translatesAutoresizingMaskIntoConstraints="NO" id="V5O-Ms-e4R">
+                                        <rect key="frame" x="806" y="372" width="146" height="146"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="CBS-Uq-biz" appends="YES" id="t7t-wo-42H"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_notas_azul" translatesAutoresizingMaskIntoConstraints="NO" id="bsO-cO-6ZV">
+                                        <rect key="frame" x="706" y="288" width="133" height="133"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="P3j-KF-MiC" appends="YES" id="RVq-97-1Yg"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_notas_verde" translatesAutoresizingMaskIntoConstraints="NO" id="uZ6-ni-2GQ">
+                                        <rect key="frame" x="153" y="379" width="157" height="157"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Lm7-G5-dbR" appends="YES" id="fRa-k1-OBM"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_notas_rojo" translatesAutoresizingMaskIntoConstraints="NO" id="3z7-sQ-PVh">
+                                        <rect key="frame" x="276" y="236" width="159" height="159"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="bRL-Pc-guG" appends="YES" id="PqN-11-6f4"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.65363563058855223" green="0.79085410035708781" blue="0.84501201920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7hV-Vv-hld" appends="YES" id="3to-RQ-8Yq"/>
+                                    <outletCollection property="gestureRecognizers" destination="W85-L1-Oim" appends="YES" id="pdC-td-pdb"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMQ-Ad-6aF" userLabel="Pagina7">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="pUR-2r-B8P">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Podrías ayudar a Aldo a recordar la voz de su papá?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcj-pC-boy">
+                                        <rect key="frame" x="116" y="590" width="781" height="120"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7" translatesAutoresizingMaskIntoConstraints="NO" id="bc6-9F-Kkt">
+                                        <rect key="frame" x="328" y="237" width="369" height="293"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBe-1T-LmI">
+                                        <rect key="frame" x="210" y="66" width="593" height="120"/>
+                                        <string key="text">Aldo se siente triste….
+¡No es tu culpa!</string>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_notas_morado" translatesAutoresizingMaskIntoConstraints="NO" id="Teu-cy-jNb">
+                                        <rect key="frame" x="127" y="224" width="151" height="151"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="uSa-GJ-5CG" appends="YES" id="k4O-AB-gGy"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_cafe" translatesAutoresizingMaskIntoConstraints="NO" id="mJ2-YW-EIz">
+                                        <rect key="frame" x="202" y="360" width="159" height="159"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ldx-eO-JPP" appends="YES" id="Wha-3p-kvF"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_notas_azul" translatesAutoresizingMaskIntoConstraints="NO" id="taQ-8S-hWo">
+                                        <rect key="frame" x="669" y="224" width="158" height="158"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="F1L-6i-3vW" appends="YES" id="x0W-71-wyZ"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_notas_rojo" translatesAutoresizingMaskIntoConstraints="NO" id="D9F-d5-eey">
+                                        <rect key="frame" x="738" y="360" width="166" height="166"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="u5x-dG-3yI" appends="YES" id="ybc-cF-NIq"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.83414201870000004" green="0.66069242500000003" blue="0.84501201920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cAC-KG-eVg" appends="YES" id="iC3-dg-r5a"/>
+                                    <outletCollection property="gestureRecognizers" destination="Mf5-dh-puo" appends="YES" id="VKl-Rl-SWM"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfA-Qg-u6h" userLabel="Pagina8">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="A0Q-X3-Eje">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aldo extraña a sus padres." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXW-L1-40I">
+                                        <rect key="frame" x="45" y="65" width="665" height="93"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ha pasado demasiado tiempo en la guardería.  " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7J-TC-Buc">
+                                        <rect key="frame" x="103" y="124" width="862" height="150"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Apoyar a Aldo!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUP-Lm-iXA">
+                                        <rect key="frame" x="34" y="584" width="382" height="150"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_8" translatesAutoresizingMaskIntoConstraints="NO" id="xqJ-7k-KVv">
+                                        <rect key="frame" x="533" y="261" width="432" height="468"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_8_heart" translatesAutoresizingMaskIntoConstraints="NO" id="ot8-aG-VqK">
+                                        <rect key="frame" x="57" y="334" width="346" height="289"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="IJp-Rc-Ecg" appends="YES" id="DMI-kt-55i"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84501201920000002" green="0.66612680285260584" blue="0.60540379105244968" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3Wd-83-di6" appends="YES" id="lN9-Ak-kNN"/>
+                                    <outletCollection property="gestureRecognizers" destination="wFI-LP-bwh" appends="YES" id="oTX-aY-nvy"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="98d-3p-OLG" userLabel="Pagina9">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_7_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="1Bc-6c-G5p">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Sabes?, eres el mejor amigo que Aldo ha tenido. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAk-CH-wjY">
+                                        <rect key="frame" x="76" y="40" width="873" height="150"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aldo quiere regalarte algo." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2D-I2-rQM">
+                                        <rect key="frame" x="183" y="159" width="706" height="76"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_9" translatesAutoresizingMaskIntoConstraints="NO" id="DIs-VY-QZj">
+                                        <rect key="frame" x="131" y="279" width="365" height="313"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_9_biberon" translatesAutoresizingMaskIntoConstraints="NO" id="PJ9-63-aJz">
+                                        <rect key="frame" x="580" y="318" width="276" height="236"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TXP-Vm-RWW" appends="YES" id="mhU-rX-h9O"/>
+                                        </connections>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Has recibido el biberón de Aldo!  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wG6-Gz-BR5">
+                                        <rect key="frame" x="98" y="649" width="829" height="76"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75731882987768162" green="0.75661332273041093" blue="0.84501201920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wNn-2I-a7R" appends="YES" id="dZ3-Ib-Rpj"/>
+                                    <outletCollection property="gestureRecognizers" destination="bwX-u4-o5B" appends="YES" id="p3i-Wp-xY4"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vxr-CC-Hlh" userLabel="Pagina10">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sprite_page_10_fondo" translatesAutoresizingMaskIntoConstraints="NO" id="8u7-T6-BIP">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Los papás de Aldo han llegado. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e4-4P-dnf">
+                                        <rect key="frame" x="86" y="29" width="852" height="89"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Despídete de Aldo!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXK-lL-i5G">
+                                        <rect key="frame" x="181" y="203" width="696" height="76"/>
+                                        <fontDescription key="fontDescription" name="PixelOperatorMono-Bold" family="Pixel Operator Mono" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.081539293562232856" green="0.087698027360037054" blue="0.22810496794871793" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="B5O-3T-X3h" appends="YES" id="0lh-nk-IDu"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="imgPagCinco1" destination="xwE-aQ-Ikt" id="UE1-f7-0oK"/>
+                        <outlet property="imgPagCinco2" destination="egm-hd-Zf1" id="hXj-QP-9Mn"/>
+                        <outlet property="imgPagCinco3" destination="r62-nS-VrG" id="aUe-bt-Xau"/>
+                        <outlet property="imgPagCuatro1" destination="Tz4-v6-64a" id="GyO-ru-z5D"/>
+                        <outlet property="imgPagCuatro2" destination="Kg0-hZ-0rw" id="gcq-Qm-2vd"/>
+                        <outlet property="imgPagDos1" destination="F1d-6X-wUI" id="Xth-F8-bFt"/>
+                        <outlet property="imgPagDos2" destination="Yyb-Lz-WfF" id="ERT-zN-rzr"/>
+                        <outlet property="imgPagNueve1" destination="DIs-VY-QZj" id="2Bp-dC-dp3"/>
+                        <outlet property="imgPagNueve2" destination="PJ9-63-aJz" id="diu-Ff-KjH"/>
+                        <outlet property="imgPagOcho1" destination="xqJ-7k-KVv" id="qhm-tI-hPn"/>
+                        <outlet property="imgPagOcho2" destination="ot8-aG-VqK" id="tle-ZF-Pcb"/>
+                        <outlet property="imgPagSeis1" destination="wZd-Sc-eFZ" id="bKF-S7-PjM"/>
+                        <outlet property="imgPagSeisNota1" destination="uZ6-ni-2GQ" id="TKP-w6-RPJ"/>
+                        <outlet property="imgPagSeisNota2" destination="V5O-Ms-e4R" id="R1p-sR-urh"/>
+                        <outlet property="imgPagSeisNota3" destination="3z7-sQ-PVh" id="s9Y-Ha-vsA"/>
+                        <outlet property="imgPagSeisNota4" destination="bsO-cO-6ZV" id="vAq-AW-tZ7"/>
+                        <outlet property="imgPagSiete1" destination="bc6-9F-Kkt" id="FQ3-iy-tll"/>
+                        <outlet property="imgPagSieteNota1" destination="Teu-cy-jNb" id="RMN-Ih-mBb"/>
+                        <outlet property="imgPagSieteNota2" destination="mJ2-YW-EIz" id="BEJ-Ov-Y8l"/>
+                        <outlet property="imgPagSieteNota3" destination="taQ-8S-hWo" id="LqO-tA-tkx"/>
+                        <outlet property="imgPagSieteNota4" destination="D9F-d5-eey" id="KnG-qi-G88"/>
+                        <outlet property="imgPagUno" destination="uPh-6b-JlX" id="4Ut-4f-O9A"/>
+                        <outlet property="lblPagCuatro1" destination="w0i-Tx-JX9" id="Dxr-9I-9Y8"/>
+                        <outlet property="lblPagDiez1" destination="4e4-4P-dnf" id="aG2-By-6CM"/>
+                        <outlet property="lblPagDiez2" destination="EXK-lL-i5G" id="sqE-TN-NUI"/>
+                        <outlet property="lblPagDos1" destination="aJQ-TY-awW" id="wfi-xc-APN"/>
+                        <outlet property="lblPagDos2" destination="9fl-Nf-OS9" id="N4H-Ai-bV7"/>
+                        <outlet property="lblPagNueve1" destination="cAk-CH-wjY" id="5dT-Fz-FrX"/>
+                        <outlet property="lblPagNueve2" destination="o2D-I2-rQM" id="Q5l-PQ-gPN"/>
+                        <outlet property="lblPagNueve3" destination="wG6-Gz-BR5" id="fWi-UK-Ner"/>
+                        <outlet property="lblPagOcho1" destination="KXW-L1-40I" id="MR1-Tz-6pi"/>
+                        <outlet property="lblPagOcho2" destination="j7J-TC-Buc" id="S5I-uU-C7M"/>
+                        <outlet property="lblPagOcho3" destination="OUP-Lm-iXA" id="APq-0o-shD"/>
+                        <outlet property="lblPagSeis1" destination="sF5-W7-7sN" id="0jW-rX-SZ6"/>
+                        <outlet property="lblPagSeis2" destination="IYW-vh-4By" id="LVI-30-0rM"/>
+                        <outlet property="lblPagSeis3" destination="kH4-Zi-OCj" id="aRT-VH-lDC"/>
+                        <outlet property="lblPagSiete1" destination="YBe-1T-LmI" id="TRR-Ta-ERb"/>
+                        <outlet property="lblPagSiete2" destination="Lcj-pC-boy" id="nxn-HP-wPJ"/>
+                        <outlet property="lblPagTres1" destination="G82-ix-QGP" id="5jC-xX-FhD"/>
+                        <outlet property="lblPagTres2" destination="kcS-De-lN3" id="fcO-xl-bp9"/>
+                        <outlet property="lblPagUno1" destination="GVI-Ho-sLj" id="50t-wL-Xni"/>
+                        <outlet property="lblPagUno2" destination="uPe-2L-qD8" id="faB-yN-SxK"/>
+                        <outlet property="lblPagUno3" destination="9bu-Zp-zfI" id="Fkc-xL-sct"/>
+                        <outlet property="vwPagCinco" destination="8Xu-GZ-eDk" id="AwS-cA-Mw1"/>
+                        <outlet property="vwPagCuatro" destination="uFm-ni-e9n" id="dQB-Xa-qKz"/>
+                        <outlet property="vwPagDiez" destination="vxr-CC-Hlh" id="VZo-Ko-skz"/>
+                        <outlet property="vwPagDos" destination="fkt-xB-h3n" id="XSD-ke-hy8"/>
+                        <outlet property="vwPagNueve" destination="98d-3p-OLG" id="6un-MR-5OV"/>
+                        <outlet property="vwPagOcho" destination="jfA-Qg-u6h" id="w55-8y-eiz"/>
+                        <outlet property="vwPagSeis" destination="s3C-ch-Uud" id="7EC-Yk-fEF"/>
+                        <outlet property="vwPagSiete" destination="qMQ-Ad-6aF" id="vqF-yv-auZ"/>
+                        <outlet property="vwPagTres" destination="D82-K3-pT2" id="zk6-7X-tJp"/>
+                        <outlet property="vwPagUno" destination="TOw-0k-YxZ" id="AWe-KH-p17"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="Xub-ql-cjW" userLabel="Swipe UP Uno">
+                    <connections>
+                        <action selector="doSwipeUPUno:" destination="BYZ-38-t0r" id="wbt-ry-jUY"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="Fj5-Hg-cyt" userLabel="Swipe UP Dos">
+                    <connections>
+                        <action selector="doSwipeUPDos:" destination="BYZ-38-t0r" id="qQG-Fn-9Mn"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="DuZ-K7-oxV" userLabel="Swipe DOWN Dos">
+                    <connections>
+                        <action selector="doSwipeDOWNDos:" destination="BYZ-38-t0r" id="xyI-8W-Gpb"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="Iai-P5-v1v" userLabel="Swipe UP Tres">
+                    <connections>
+                        <action selector="doSwipeUPTres:" destination="BYZ-38-t0r" id="mMm-sh-I79"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="BOB-bW-rpN" userLabel="Swipe DOWN Tres">
+                    <connections>
+                        <action selector="doSwipeDOWNTres:" destination="BYZ-38-t0r" id="525-SM-HIo"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="n10-Po-cc9" userLabel="Swipe UP Cuatro">
+                    <connections>
+                        <action selector="doSwipeUPCuatro:" destination="BYZ-38-t0r" id="Ogw-rF-a7n"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="jCc-FD-A7f" userLabel="Swipe Down Cuatro">
+                    <connections>
+                        <action selector="doSwipeDOWNCuatro:" destination="BYZ-38-t0r" id="l30-6k-ib8"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="VQM-qJ-QdK" userLabel="Swipe UP Cinco">
+                    <connections>
+                        <action selector="doSwipeUPCinco:" destination="BYZ-38-t0r" id="jyJ-sZ-b0W"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="1zV-Lw-MFC" userLabel="Swipe DOWN Cinco">
+                    <connections>
+                        <action selector="doSwipeDOWNCinco:" destination="BYZ-38-t0r" id="GGQ-xq-k4v"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="7hV-Vv-hld" userLabel="Swipe UP Seis">
+                    <connections>
+                        <action selector="doSwipeUPSeis:" destination="BYZ-38-t0r" id="ayl-lf-XDD"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="W85-L1-Oim" userLabel="Swipe DOWN Seis">
+                    <connections>
+                        <action selector="doSwipeDOWNSeis:" destination="BYZ-38-t0r" id="g44-7Y-OWh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="cAC-KG-eVg" userLabel="Swipe UP Siete">
+                    <connections>
+                        <action selector="doSwipeUPSiete:" destination="BYZ-38-t0r" id="HGF-8B-pL2"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="Mf5-dh-puo" userLabel="Swipe DOWN Siete">
+                    <connections>
+                        <action selector="doSwipeDOWNSiete:" destination="BYZ-38-t0r" id="COm-fH-Kdc"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="3Wd-83-di6" userLabel="Swipe UP Ocho">
+                    <connections>
+                        <action selector="doSwipeUPOcho:" destination="BYZ-38-t0r" id="Mig-46-0Ta"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="wFI-LP-bwh" userLabel="Swipe DOWN Ocho">
+                    <connections>
+                        <action selector="doSwipeDOWNOcho:" destination="BYZ-38-t0r" id="xD8-BT-WaK"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="wNn-2I-a7R" userLabel="Swipe UP Nueve">
+                    <connections>
+                        <action selector="doSwipeUPNueve:" destination="BYZ-38-t0r" id="eAz-yd-3OT"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="bwX-u4-o5B" userLabel="Swipe DOWN Nueve">
+                    <connections>
+                        <action selector="doSwipeDOWNNueve:" destination="BYZ-38-t0r" id="Qq5-Tl-2Q8"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="B5O-3T-X3h" userLabel="Swipe DOWN Diez">
+                    <connections>
+                        <action selector="doSwipeUPDiez:" destination="BYZ-38-t0r" id="ciA-Nt-Vk8"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer id="0hV-1X-UgH">
+                    <connections>
+                        <action selector="doTapImgPagUno:" destination="BYZ-38-t0r" id="F9a-4O-z8u"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="nlL-aj-Mda" userLabel="Tap Pag2Img2 ">
+                    <connections>
+                        <action selector="doTapPagDosImg2:" destination="BYZ-38-t0r" id="jL1-Jo-H9W"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="6k6-CV-jvv" userLabel="Tap Pag4ImgFondo">
+                    <connections>
+                        <action selector="doTapPag4:" destination="BYZ-38-t0r" id="7V9-pe-y1C"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="QlI-mE-uh1" userLabel="Tap Pag5ImgFondo">
+                    <connections>
+                        <action selector="doTapPag5:" destination="BYZ-38-t0r" id="jjP-Mv-27z"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Lm7-G5-dbR" userLabel="Tap Pag6Nota1">
+                    <connections>
+                        <action selector="doTapPag6Nota1:" destination="BYZ-38-t0r" id="Avu-eI-0dz"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bRL-Pc-guG" userLabel="Tap Pag6Nota2">
+                    <connections>
+                        <action selector="doTapPag6Nota2:" destination="BYZ-38-t0r" id="VcL-YK-K7I"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="P3j-KF-MiC" userLabel="Tap Pag6Nota3">
+                    <connections>
+                        <action selector="doTapPag6Nota3:" destination="BYZ-38-t0r" id="TOs-kp-8cL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="CBS-Uq-biz" userLabel="Tap Pag6Nota4">
+                    <connections>
+                        <action selector="doTapPag6Nota4:" destination="BYZ-38-t0r" id="dMg-aa-VIR"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="uSa-GJ-5CG" userLabel="Tap Pag7Nota1">
+                    <connections>
+                        <action selector="doTapPag7Nota1:" destination="BYZ-38-t0r" id="KbF-VF-qNh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ldx-eO-JPP" userLabel="Tap Pag7Nota2">
+                    <connections>
+                        <action selector="doTapPag7Nota2:" destination="BYZ-38-t0r" id="CMh-UP-KAd"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="F1L-6i-3vW" userLabel="Tap Pag7Nota3">
+                    <connections>
+                        <action selector="doTapPag7Nota3:" destination="BYZ-38-t0r" id="3ci-6B-Qgi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="u5x-dG-3yI" userLabel="Tap Pag7Nota4">
+                    <connections>
+                        <action selector="doTapPag7Nota4:" destination="BYZ-38-t0r" id="Iel-Zf-Tq3"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="IJp-Rc-Ecg" userLabel="Tap Pag8Corazon">
+                    <connections>
+                        <action selector="doTapPag8Corazon:" destination="BYZ-38-t0r" id="V4W-kk-EZw"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="TXP-Vm-RWW" userLabel="Tap Pag9Mamila">
+                    <connections>
+                        <action selector="doTap9Mamila:" destination="BYZ-38-t0r" id="KYV-GZ-Whh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="404-AW-zVQ" userLabel="Tap DO">
+                    <connections>
+                        <action selector="doTapDO:" destination="BYZ-38-t0r" id="0id-LD-IMd"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="U60-mQ-cKb" userLabel="Tap RE">
+                    <connections>
+                        <action selector="doTapRE:" destination="BYZ-38-t0r" id="A9G-gl-C7l"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="iYT-Zo-0fs" userLabel="Tap MI">
+                    <connections>
+                        <action selector="doTapMI:" destination="BYZ-38-t0r" id="vLV-cz-gUB"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Jth-Nr-M3g" userLabel="Tap LA">
+                    <connections>
+                        <action selector="doTapLA:" destination="BYZ-38-t0r" id="hOg-Y5-rbW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="uFK-LC-NUA" userLabel="Tap SOL">
+                    <connections>
+                        <action selector="doTapSOL:" destination="BYZ-38-t0r" id="jt4-No-oxC"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FPP-PI-a9U" userLabel="Tap LA">
+                    <connections>
+                        <action selector="doTapFA:" destination="BYZ-38-t0r" id="cRE-1A-z6A"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="M3o-1b-Oa6" userLabel="Tap SI">
+                    <connections>
+                        <action selector="doTapSI:" destination="BYZ-38-t0r" id="5nl-8E-NiW"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="-25" y="300"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sprite_cafe" width="160" height="160"/>
+        <image name="sprite_notas_azul" width="160" height="160"/>
+        <image name="sprite_notas_morado" width="160" height="160"/>
+        <image name="sprite_notas_rojo" width="160" height="160"/>
+        <image name="sprite_notas_verde" width="160" height="160"/>
+        <image name="sprite_page_10_fondo" width="2048" height="1536"/>
+        <image name="sprite_page_2" width="1024" height="292"/>
+        <image name="sprite_page_2_OSO" width="160" height="170"/>
+        <image name="sprite_page_4_pez" width="512" height="304"/>
+        <image name="sprite_page_4_playa" width="1024" height="688"/>
+        <image name="sprite_page_5_aldo" width="1024" height="292"/>
+        <image name="sprite_page_5_bosque" width="1024" height="578"/>
+        <image name="sprite_page_5_monkey_1" width="320" height="330"/>
+        <image name="sprite_page_5_monkey_2" width="320" height="330"/>
+        <image name="sprite_page_6_inverted" width="1024" height="292"/>
+        <image name="sprite_page_7" width="1024" height="292"/>
+        <image name="sprite_page_7_fondo" width="1024" height="544"/>
+        <image name="sprite_page_8" width="1024" height="292"/>
+        <image name="sprite_page_8_heart" width="160" height="145"/>
+        <image name="sprite_page_9" width="1024" height="292"/>
+        <image name="sprite_page_9_biberon" width="256" height="208"/>
+    </resources>
 </document>
